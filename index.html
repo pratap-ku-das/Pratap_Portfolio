@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Pratap Kumar Das - Aspiring Java Developer & Web Developer">
+    <title>Pratap Kumar Das | Java Developer & Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Glassmorphism -->
+    <header class="header" id="header">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <div class="nav__brand">
+                <h1 class="nav__name">Pratap Kumar Das</h1>
+                <p class="nav__role">Aspiring Java Developer & Web Developer</p>
+            </div>
+            
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav__menu" id="navMenu">
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">Experience</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#education" class="nav__link">Education</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://www.linkedin.com/in/pratapkumar-das-085a67252" 
+                       class="nav__link nav__link--social" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn profile">
+                        LinkedIn
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="assets/resume.pdf" 
+                       class="nav__link nav__link--button" 
+                       download="Pratap_Kumar_Das_Resume.pdf"
+                       aria-label="Download resume PDF">
+                        Download Resume
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <span class="theme-toggle__icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h2 class="hero__greeting">Hello, I'm</h2>
+                    <h1 class="hero__name">Pratap Kumar Das</h1>
+                    <p class="hero__tagline">
+                        I'm a <span class="typed-text" id="typedText"></span>
+                        <span class="typed-cursor">|</span>
+                    </p>
+                    <p class="hero__summary">
+                        Motivated Java Developer with expertise in game development and cybersecurity analysis. 
+                        Skilled in Java, Python, and web technologies, with strong problem-solving abilities and adaptability.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="assets/resume.pdf" 
+                           class="btn btn--secondary" 
+                           download="Pratap_Kumar_Das_Resume.pdf">
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>
+                            Motivated Java Developer with expertise in game development and cybersecurity analysis. 
+                            Skilled in Java, Python, and web technologies, with strong problem-solving abilities and adaptability. 
+                            Recent graduate with practical experience in software projects and internships, demonstrating commitment 
+                            to continuous learning, clean design principles, and user-centred development.
+                        </p>
+                    </div>
+                    <div class="about__contact">
+                        <div class="contact-info">
+                            <div class="contact-info__item">
+                                <span class="contact-info__icon">📍</span>
+                                <span>Bhubaneswar, Odisha - 751023</span>
+                            </div>
+                            <div class="contact-info__item">
+                                <span class="contact-info__icon">📞</span>
+                                <a href="tel:+919348532113">+91 9348532113</a>
+                            </div>
+                            <div class="contact-info__item">
+                                <span class="contact-info__icon">✉️</span>
+                                <a href="mailto:pratap.kumar.das@rcm.ac">pratap.kumar.das@rcm.ac</a>
+                            </div>
+                            <div class="contact-info__item">
+                                <span class="contact-info__icon">🔗</span>
+                                <a href="https://www.linkedin.com/in/pratapkumar-das-085a67252" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer">
+                                    LinkedIn Profile
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section__title">Experience</h2>
+                <div class="experience__item">
+                    <div class="experience__header">
+                        <h3 class="experience__title">Supervisor</h3>
+                        <span class="experience__company">Think Caffe Cultural Pvt. Ltd.</span>
+                        <span class="experience__date">Apr 2023 - May 2024</span>
+                    </div>
+                    <ul class="experience__list">
+                        <li>Managed daily operations, customer feedback, and schedules to ensure smooth service.</li>
+                        <li>Coordinated a team and guided new staff, fostering collaboration and productivity.</li>
+                        <li>Resolved conflicts and handled high-pressure situations with professionalism.</li>
+                        <li>Maintained records, reports, and data-driven decisions to improve performance metrics.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <div class="projects__filter" id="projectsFilter" role="tablist" aria-label="Filter projects by technology">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+                    <button class="filter-btn" data-filter="python" role="tab" aria-selected="false">Python</button>
+                    <button class="filter-btn" data-filter="react" role="tab" aria-selected="false">React</button>
+                    <button class="filter-btn" data-filter="javascript" role="tab" aria-selected="false">JavaScript</button>
+                    <button class="filter-btn" data-filter="nodejs" role="tab" aria-selected="false">Node.js</button>
+                    <button class="filter-btn" data-filter="mongodb" role="tab" aria-selected="false">MongoDB</button>
+                </div>
+                <div class="projects__grid" id="projectsGrid">
+                    <!-- Project cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__grid">
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">Java Core</span>
+                            <span class="skill-item__percent">90%</span>
+                        </div>
+                        <div class="skill-item__bar">
+                            <div class="skill-item__progress" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">Python</span>
+                            <span class="skill-item__percent">85%</span>
+                        </div>
+                        <div class="skill-item__bar">
+                            <div class="skill-item__progress" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">SQL</span>
+                            <span class="skill-item__percent">80%</span>
+                        </div>
+                        <div class="skill-item__bar">
+                            <div class="skill-item__progress" data-percent="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">HTML5</span>
+                            <span class="skill-item__percent">90%</span>
+                        </div>
+                        <div class="skill-item__bar">
+                            <div class="skill-item__progress" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">CSS</span>
+                            <span class="skill-item__percent">85%</span>
+                        </div>
+                        <div class="skill-item__bar">
+                            <div class="skill-item__progress" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">JavaScript</span>
+                            <span class="skill-item__percent">85%</span>
+                        </div>
+                        <div class="skill-item__bar">
+                            <div class="skill-item__progress" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">Git & GitHub</span>
+                            <span class="skill-item__percent">80%</span>
+                        </div>
+                        <div class="skill-item__bar">
+                            <div class="skill-item__progress" data-percent="80"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills__chips">
+                    <h3 class="skills__subtitle">Additional Skills</h3>
+                    <div class="chip-container">
+                        <span class="chip">Problem-solving</span>
+                        <span class="chip">Analytical Thinking</span>
+                        <span class="chip">Collaboration</span>
+                        <span class="chip">Communication</span>
+                        <span class="chip">Adaptability</span>
+                        <span class="chip">Time Management</span>
+                        <span class="chip">Software Development</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <h2 class="section__title">Education</h2>
+                <div class="education__grid">
+                    <div class="education__item">
+                        <h3 class="education__degree">Master's in Computer Application (MCA)</h3>
+                        <p class="education__institution">Regional College of Management, Bhubaneswar, Odisha</p>
+                        <p class="education__date">Expected Completion: Apr 2026</p>
+                        <p class="education__gpa">GPA: 8.57 / 10</p>
+                    </div>
+                    <div class="education__item">
+                        <h3 class="education__degree">Bachelor of Science in Mathematics</h3>
+                        <p class="education__institution">Berhampur University, Berhampur, Odisha</p>
+                        <p class="education__date">Completed: Mar 2024</p>
+                        <p class="education__gpa">GPA: 7.0 / 10</p>
+                    </div>
+                    <div class="education__item">
+                        <h3 class="education__degree">High School Diploma</h3>
+                        <p class="education__institution">Khemundi Higher Secondary School, Digapahandi</p>
+                        <p class="education__date">Completed: Feb 2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <div class="container">
+                <h2 class="section__title">Certifications</h2>
+                <div class="certifications__grid">
+                    <div class="certification__item">
+                        <h3 class="certification__name">Java OOPS</h3>
+                        <p class="certification__provider">SkillUp</p>
+                        <p class="certification__date">Completed: Jun 2025</p>
+                        <p class="certification__description">
+                            Gained industry-relevant OOP concepts for software development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Languages Section -->
+        <section class="achievements section" id="achievements">
+            <div class="container">
+                <div class="achievements__grid">
+                    <div class="achievements__section">
+                        <h2 class="section__title">Achievements</h2>
+                        <div class="achievement__item">
+                            <h3 class="achievement__name">Coda-thon</h3>
+                            <p class="achievement__description">
+                                Participated in a competitive coding and development event, showcasing problem-solving and programming expertise.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="languages__section">
+                        <h2 class="section__title">Languages</h2>
+                        <ul class="languages__list">
+                            <li class="language__item">English</li>
+                            <li class="language__item">Hindi</li>
+                            <li class="language__item">Odia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <p class="contact__subtitle">
+                    Have a project in mind or want to collaborate? Feel free to reach out!
+                </p>
+                <form class="contact__form" id="contactForm" aria-label="Contact form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            class="form__input" 
+                            required
+                            aria-required="true"
+                            aria-label="Your name">
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form__input" 
+                            required
+                            aria-required="true"
+                            aria-label="Your email address">
+                    </div>
+                    <div class="form__group">
+                        <label for="subject" class="form__label">Subject</label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            class="form__input" 
+                            required
+                            aria-required="true"
+                            aria-label="Email subject">
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="form__label">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="form__input form__textarea" 
+                            rows="5" 
+                            required
+                            aria-required="true"
+                            aria-label="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__text">
+                    &copy; 2025 Pratap Kumar Das. All rights reserved.
+                </p>
+                <p class="footer__text">
+                    Built with HTML, CSS, and JavaScript. Deployed on GitHub Pages.
+                </p>
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/pratapkumar-das-085a67252" 
+                       class="footer__link" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn profile">
+                        LinkedIn
+                    </a>
+                    <a href="https://pratap-kudas.github.io/Portfolio/" 
+                       class="footer__link" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       aria-label="Portfolio website">
+                        Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal__overlay" id="modalOverlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="modalClose" aria-label="Close modal">×</button>
+            <div class="modal__body" id="modalBody">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        ↑
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
