@@ -739,6 +739,7 @@ a:focus {
     border-radius: var(--radius-sm);
     font-size: 0.75rem;
     color: var(--text-secondary);
+}
 
 .project-card__actions {
     display: flex;
@@ -1166,12 +1167,21 @@ a:focus {
     padding: var(--spacing-lg);
 }
 
+.modal__image-container {
+    width: 100%;
+    position: relative;
+}
+
 .modal__image {
     width: 100%;
     max-height: 400px;
     object-fit: cover;
     border-radius: var(--radius-md);
-    margin-bottom: var(--spacing-md);
+    display: block;
+}
+
+.modal__image-container .project-card__placeholder {
+    border-radius: var(--radius-md);
 }
 
 .modal__title {
@@ -1308,5 +1318,4 @@ a:focus {
         page-break-inside: avoid;
     }
 }
-
 
