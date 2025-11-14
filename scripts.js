@@ -224,7 +224,11 @@ function renderProjects(filter = 'all') {
     projectsGrid.innerHTML = filteredProjects.map(project => `
         <div class="project-card" data-project-id="${project.id}">
             <div class="project-card__image">
-                <span>Project Screenshot Placeholder</span>
+               <img src="${project.image}" 
+                     alt="${project.title} screenshot" 
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                     style="width: 100%; height: 100%; object-fit: cover;">
+                <span style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; color: var(--text-muted); font-size: 0.875rem;">Project Screenshot Placeholder</span>
             </div>
             <div class="project-card__content">
                 <h3 class="project-card__title">${project.title}</h3>
@@ -496,6 +500,7 @@ if ('IntersectionObserver' in window) {
 // ============================================
 console.log('%c👋 Hello! Welcome to Pratap Kumar Das\'s Portfolio', 'color: #20c997; font-size: 16px; font-weight: bold;');
 console.log('%cBuilt with HTML, CSS, and Vanilla JavaScript', 'color: #6c757d; font-size: 12px;');
+
 
 
 
