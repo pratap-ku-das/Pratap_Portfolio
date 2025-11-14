@@ -178,25 +178,25 @@ if (typedText) {
 const projects = [
     {
         id: 1,
-        title: 'My First RPG',
-        date: 'Feb 2025 - Present',
-        description: 'Developed a 2D platformer game using GameMaker with Python scripting. Focused on player mechanics, visual design, and user experience through iterative development.',
-        image: 'assets/project-rpg.jpg',
-        tags: ['python', 'javascript'],
-        tech: ['GameMaker', 'Python'],
-        codeUrl: '#',
-        liveUrl: '#'
+        title: 'Calculator',
+        date: 'Nov-2025',
+        description: 'A modern, stylish digital calculator UI featuring vibrant buttons and a sleek dark theme.',
+        image: 'assets/project-calculator.jpg',
+        tags: ['javascript', 'html', 'css'],
+        tech: ['HTML5', 'CSS3', 'JavaScript'],
+        codeUrl: 'https://github.com/pratap-ku-das/CodeAlpha_Calculator',
+        liveUrl: 'https://pratap-ku-das.github.io/CodeAlpha_Calculator/'
     },
     {
         id: 2,
-        title: 'Task Manager App',
-        date: 'Jul 2025',
-        description: 'Built with React, Node.js, Express, and MongoDB with full CRUD operations via RESTful APIs. Designed a responsive UI and integrated MERN stack with GitHub version control.',
-        image: 'assets/project-taskmanager.jpg',
-        tags: ['react', 'nodejs', 'mongodb', 'javascript'],
-        tech: ['React', 'Node.js', 'Express', 'MongoDB', 'RESTful APIs'],
-        codeUrl: '#',
-        liveUrl: '#'
+        title: 'Image Gallery',
+        date: 'Nov 2025',
+        description: 'A beautifully designed gallery interface featuring high-quality images and intuitive filter navigation.',
+        image: 'assets/project-image-gallery.jpg',
+        tags: ['javascript', 'html', 'css'],
+        tech: ['HTML5', 'CSS3', 'JavaScript'],
+        codeUrl: 'https://github.com/pratap-ku-das/CodeAlpha_image_gallery',
+        liveUrl: 'https://pratap-ku-das.github.io/CodeAlpha_image_gallery/'
     },
     {
         id: 3,
@@ -206,8 +206,8 @@ const projects = [
         image: 'assets/project-agecalculator.jpg',
         tags: ['javascript', 'html', 'css'],
         tech: ['HTML5', 'CSS3', 'JavaScript'],
-        codeUrl: '#',
-        liveUrl: '#'
+        codeUrl: 'https://github.com/pratap-ku-das/CodeAlpha_AgeCalculator',
+        liveUrl: 'https://pratap-ku-das.github.io/CodeAlpha_AgeCalculator/'
     }
 ];
 
@@ -496,4 +496,5 @@ if ('IntersectionObserver' in window) {
 // ============================================
 console.log('%c👋 Hello! Welcome to Pratap Kumar Das\'s Portfolio', 'color: #20c997; font-size: 16px; font-weight: bold;');
 console.log('%cBuilt with HTML, CSS, and Vanilla JavaScript', 'color: #6c757d; font-size: 12px;');
+
 
