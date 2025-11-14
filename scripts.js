@@ -302,8 +302,15 @@ function openProjectModal(projectId) {
     if (!project || !modalBody) return;
 
     modalBody.innerHTML = `
-        <div class="project-card__image" style="height: 300px; margin-bottom: 1.5rem;">
-            <span>Project Screenshot Placeholder</span>
+       <div class="modal__image-container" style="margin-bottom: 1.5rem;">
+            <img src="${project.image}" 
+                 alt="${project.title} screenshot" 
+                 class="modal__image"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                 loading="lazy">
+            <div class="project-card__placeholder" style="display: none; height: 300px;">
+                <span>Project Screenshot Placeholder</span>
+            </div>
         </div>
         <h2 class="modal__title">${project.title}</h2>
         <p class="modal__date">${project.date}</p>
@@ -500,6 +507,7 @@ if ('IntersectionObserver' in window) {
 // ============================================
 console.log('%c👋 Hello! Welcome to Pratap Kumar Das\'s Portfolio', 'color: #20c997; font-size: 16px; font-weight: bold;');
 console.log('%cBuilt with HTML, CSS, and Vanilla JavaScript', 'color: #6c757d; font-size: 12px;');
+
 
 
 
