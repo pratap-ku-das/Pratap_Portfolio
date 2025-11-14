@@ -181,7 +181,7 @@ const projects = [
         title: 'Calculator',
         date: 'Nov-2025',
         description: 'A modern, stylish digital calculator UI featuring vibrant buttons and a sleek dark theme.',
-        image: 'assets/project-calculator.png',
+        image: 'assets/project-calculator.jpg',
         tags: ['javascript', 'html', 'css'],
         tech: ['HTML5', 'CSS3', 'JavaScript'],
         codeUrl: 'https://github.com/pratap-ku-das/CodeAlpha_Calculator',
@@ -192,7 +192,7 @@ const projects = [
         title: 'Image Gallery',
         date: 'Nov 2025',
         description: 'A beautifully designed gallery interface featuring high-quality images and intuitive filter navigation.',
-        image: 'assets/project-image-gallery.png',
+        image: 'assets/project-image-gallery.jpg',
         tags: ['javascript', 'html', 'css'],
         tech: ['HTML5', 'CSS3', 'JavaScript'],
         codeUrl: 'https://github.com/pratap-ku-das/CodeAlpha_image_gallery',
@@ -203,7 +203,7 @@ const projects = [
         title: 'Age Calculator Web App',
         date: 'Aug 2025',
         description: 'Created an interactive Age Calculator using HTML, CSS, and JavaScript. Computes precise age in years, months, and days with a responsive user interface.',
-        image: 'assets/project-agecalculator.png',
+        image: 'assets/project-agecalculator.jpg',
         tags: ['javascript', 'html', 'css'],
         tech: ['HTML5', 'CSS3', 'JavaScript'],
         codeUrl: 'https://github.com/pratap-ku-das/CodeAlpha_AgeCalculator',
@@ -496,6 +496,7 @@ if ('IntersectionObserver' in window) {
 // ============================================
 console.log('%c👋 Hello! Welcome to Pratap Kumar Das\'s Portfolio', 'color: #20c997; font-size: 16px; font-weight: bold;');
 console.log('%cBuilt with HTML, CSS, and Vanilla JavaScript', 'color: #6c757d; font-size: 12px;');
+
 
 
 
