@@ -1,0 +1,33 @@
+# Assets Folder
+
+This folder contains images and other static assets for the portfolio website.
+
+## Project Screenshots
+
+Place your project screenshots in this folder with the following naming convention:
+
+- `project-rpg.jpg` - Screenshot for "My First RPG" project
+- `project-taskmanager.jpg` - Screenshot for "Task Manager App" project
+- `project-agecalculator.jpg` - Screenshot for "Age Calculator Web App" project
+
+## Image Recommendations
+
+- **Format**: JPG or PNG
+- **Size**: Recommended 1200x800px or similar aspect ratio
+- **Optimization**: Compress images for web to reduce load times
+- **File Size**: Keep under 500KB per image for optimal performance
+
+## Resume PDF
+
+Place your resume PDF file here as `resume.pdf`. The website links to this file for download.
+
+## Adding Images
+
+1. Add your project screenshots to this folder
+2. Update the image paths in `scripts.js` if you use different filenames
+3. Ensure images are optimized for web use
+
+## Placeholder Images
+
+Currently, the website uses placeholder text for project images. Replace these with actual screenshots once available.
+
